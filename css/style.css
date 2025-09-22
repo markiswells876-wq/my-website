@@ -1,0 +1,34 @@
+/* Style the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: yellow;
+  color: black;
+}
+
+/* Headings */
+h1 {
+  color: black;
+  text-align: center;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: #2980b9;
+}
