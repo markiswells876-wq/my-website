@@ -3,7 +3,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: yellow;
+  background-color: rgb(221, 0, 255);
   color: black;
 }
 
@@ -118,4 +118,20 @@ footer {
   border-radius: 12px;
   padding: 2rem;
 >>>>>>> b679d5e (Updated index.html and style.css, added about.html with Bootstrap styling)
+}
+/* Custom color scheme */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Custom header font */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #007bff;
+}
+
+/* Add a border under navigation */
+nav {
+  border-bottom: 2px solid #007bff;
 }
