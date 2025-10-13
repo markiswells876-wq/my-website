@@ -1,69 +1,41 @@
-<<<<<<< HEAD
-/* Style the whole page */
+/* =========================
+   Global Styles
+========================= */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: rgb(221, 0, 255);
-  color: black;
-}
-
-/* Headings */
-h1 {
-  color: black;
-  text-align: center;
-}
-
-/* Paragraphs */
-p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-/* Links */
-a {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 15px;
-  background: #3498db;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-a:hover {
-  background: #2980b9;
-=======
-/* Global styles */
-body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', 'Times New Roman', Times, serif, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-  color: #222; /* high contrast */
+  background-color: #f8f9fa;
+  color: #333;
 }
 
+/* =========================
+   Header & Navigation
+========================= */
 header {
-  background: #004080;
+  background: #000;
   color: #fff;
   padding: 1rem;
   text-align: center;
 }
-/* Custom header font */
+
 h1 {
+  color: #ffe100;
   font-family: 'Poppins', sans-serif;
-  color: #007bff;
 }
-/* Add a border under navigation */
+
 nav {
   border-bottom: 2px solid #007bff;
 }
+
 nav ul {
   display: flex;
   justify-content: center;
   gap: 1rem;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav a {
@@ -72,6 +44,13 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: #ffe100;
+}
+
+/* =========================
+   Main Content
+========================= */
 main {
   padding: 2rem;
 }
@@ -80,6 +59,38 @@ section {
   margin-bottom: 2rem;
 }
 
+/* =========================
+   Links
+========================= */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+a:hover {
+  background: #2980b9;
+}
+
+/* =========================
+   Images
+========================= */
+img {
+  max-width: 100%;  /* scales images to fit within their container */
+  height: auto;     /* maintains aspect ratio */
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* =========================
+   Footer
+========================= */
 footer {
   background: #004080;
   color: #fff;
@@ -87,7 +98,9 @@ footer {
   padding: 1rem;
 }
 
-/* Responsive Design */
+/* =========================
+   Responsive Design
+========================= */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -99,39 +112,7 @@ footer {
     padding: 10px;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
   main {
     padding: 1rem;
   }
-}
-.brand-title {
-  font-family: 'Playfair Display', serif;
-  color: var(--brand-color);
-}
-
-.hero-section {
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  padding: 2rem;
->>>>>>> b679d5e (Updated index.html and style.css, added about.html with Bootstrap styling)
-}
-/* Custom color scheme */
-body {
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-/* Custom header font */
-h1 {
-  font-family: 'Poppins', sans-serif;
-  color: #007bff;
-}
-
-/* Add a border under navigation */
-nav {
-  border-bottom: 2px solid #007bff;
 }
